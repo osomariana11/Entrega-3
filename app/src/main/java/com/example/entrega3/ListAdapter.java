@@ -46,8 +46,14 @@ public class ListAdapter extends ArrayAdapter <Pagina>{
         TextView textoNombre = view.findViewById(R.id.txtNombre);
         textoNombre.setText(pagina.getNombre());
 
+        TextView textoMensaje = view.findViewById(R.id.txtMensaje);
+        textoMensaje.setText(pagina.getMensaje());
+
         TextView textoEdad = view.findViewById(R.id.txtViewEdad);
         textoEdad.setText(pagina.getEdad());
+
+
+
 
 
         return view;

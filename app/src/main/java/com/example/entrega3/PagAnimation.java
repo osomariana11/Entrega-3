@@ -20,7 +20,7 @@ public class PagAnimation extends AppCompatActivity {
                 startActivity(new Intent(PagAnimation.this,MainActivity.class));
                 finish();
             }
-        }, 5000);
+        }, 2500);
 
 
     }

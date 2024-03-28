@@ -6,9 +6,14 @@ public class Pagina {
     private String edad;
     private int image;
 
-    public Pagina(String nombre, String edad, int image) {
+    private String mensaje;
+
+
+
+    public Pagina(String nombre, String edad, String mensaje, int image) {
         this.nombre = nombre;
         this.edad = edad;
+        this.mensaje = mensaje;
         this.image = image;
     }
 
@@ -20,6 +25,14 @@ public class Pagina {
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
+    }
+
+    public String getMensaje() {
+        return mensaje;
+    }
+
+    public void setMensaje(String mensaje) {
+        this.mensaje = mensaje;
     }
 
     public String getEdad() {
